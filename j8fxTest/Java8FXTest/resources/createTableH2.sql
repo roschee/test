@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS test(id INT auto_increment, name VARCHAR(255), testDate date);

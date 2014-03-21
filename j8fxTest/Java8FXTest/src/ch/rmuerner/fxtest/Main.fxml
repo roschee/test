@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TextField?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+	fx:controller="ch.rmuerner.fxtest.MainController">
+	<center>
+		<VBox>
+			<children>
+				<DatePicker fx:id="datePicker" />
+				<Button text="Save" onAction="#actionSave"/>
+				<TextField fx:id="txtFieldConnURL" />
+				<TextField fx:id="txtFieldUser" />
+				<TextField fx:id="txtFieldPW" />
+				<Button text="Test" onAction="#actionTest"/>
+				<Button text="ReadCSV" onAction="#actionReadCSV"/>
+			</children>
+		</VBox>
+	</center>
+</BorderPane>
